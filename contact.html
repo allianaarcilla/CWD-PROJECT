@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>A' recos</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <i class="black-text">
+                        <a href="index.html" class="brand-logo black-text">A' recos</a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-medium-and-down">
+                            <i class="material-icons black-text">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#!"><i class="material-icons black-text">contact_mail</i></a></li>
+                            <li><a href="account.html"><i class="material-icons black-text">person</i></a></li>
+                        </ul>
+                        </i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Sidenav Structure -->
+        <ul class="sidenav" id="slide-out">
+            <li><div class="user-view">
+                <div class="background">
+                <img src="header.jpg">
+            </div>
+                <a href="#user"><img class="circle" src="icon.jpeg"></a>
+                <a href="#name"><span class="black-text name">A' Recos</span></a>
+                <a href="#email"><span class="black-text email">a'recos@gmail.com</span></a>
+            </div></li>
+                <li>
+                    <a href="account.html">About User
+                    <i class="material-icons brown-text">person</i></a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact
+                    <i class="material-icons brown-text">account_circle</i></a>
+                </li>
+                <li>
+                    <a href="help.html">Help
+                    <i class="material-icons brown-text">help</i></a>
+                </li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Other</a></li>
+                <li><a href="https://www.pinterest.ph/allianata/style/">More Inspo
+                    <i class="material-icons brown-text">more</i></a></li>
+            </li>
+        </ul>
+    </header>
+    
+    <br>
+        <!-- Contact -->
+        <div class="container"><i class="material-icons medium left brown-text">contacts</i><h2>Contacts</h2></div>
+        <br>
+        <section class="section bg2">
+        <div class="container">
+            <i class="material-icons medium left black-text">email</i><h4 class="white-text">Contact thru Gmail</h4>
+                <p class="black-text center text-lighten-5">For any collaborations or promoting products, just email me at <a href ="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnqtfsHbDhkrFcKLfzVTttzvdLfgsndjcLGXBHhjktFSGpwCRZbxGgfQvgWVnhGWDtjVB" class="white black-text" target="_blank">allianaarcilla0@gmail.com.</a></p>
+            <i class="material-icons medium left black-text">account_box</i><h4 class="white-text">Contact thru Social Media Accounts</h4>
+                <p class="black-text center text-lighten-5">All my social media are linked on home page.</p>
+            <i class="material-icons medium left black-text">message</i><h4 class="white-text">Contact thru Chat</h4>
+                <p class="black-text center text-lighten-5">It's my time to know y'all, let me know if you have any suggestions or any budol!</p>
+        <div class="col s12 m6">
+            <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-5">
+                <form action="">
+                    <div class="input-field">
+                        <input type="text" id="first_name">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="last_name">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="suggestions">
+                        <label for="suggestion">Suggestions</label>
+                    </div>
+                    <a onclick="M.toast({html: 'Your suggestion has been sent!'})" class="brown btn right">Send</a>
+                    <br>
+                </form>
+            </div>   
+        </div>
+        </div>
+        </div>
+        </section>
+        
+        <br><br>
+        <!-- Footer -->
+        <footer class="page-footer transparent">
+            <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h2 class="black-text">A' Recos</h2>
+                <p class="black-text text-lighten-4"></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h6 class="black-text">Social Media Links:</h6>
+                <br>
+                <u>
+                <a href="https://www.facebook.com/allianaxarcilla/"><img src="fb.png" width="30px"></a>
+                <a href="https://www.instagram.com/alliana_arcilla/"><img src="insta.png" width="40px"></a>
+                <a href="https://twitter.com/alliana_arcilla"><img src="tweet.png" width="30px"></a>
+                <a href="https://www.tiktok.com/@allianaaa"><img src="tiktok.png" width="28px"></a>
+                </u>
+            </div>
+            </div>
+            </div>
+            
+        <div class="footer-copyright">
+            <div class="container black-text">
+            © 2022 Copyright Text
+            <a class="black-text text-lighten-4 right" href="#!">Fashion</a>
+            </div>
+        </div>
+        </footer>
+    
+    
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+        crossorigin="anonymous"></script>
+        
+        <!-- Compiled and minified Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <script>
+        $(document).ready(function(){
+            // Sidenav init
+                $('.sidenav').sidenav({
+            });   
+            // Parallax init
+            $('.parallax').parallax({
+            });
+            // Toast init
+            M.toast({html: 'Your Suggestion has been sent!'
+                onclick
+            })
+        });
+        </script>
+    
+    </body>
+    </html>

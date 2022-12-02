@@ -1,0 +1,17 @@
+.marginp{
+    margin-bottom: 35%;
+}
+
+.marginx{
+    margin-bottom: 5%;
+}
+
+.bg1{
+    background-image: url("ft.jpg");
+    background-size: cover;
+}
+
+.bg2{
+    background-image: url("gg.jpg");
+    background-size: cover;
+}

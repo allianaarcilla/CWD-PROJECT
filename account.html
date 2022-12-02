@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>A' recos</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <i class="black-text">
+                        <a href="index.html" class="brand-logo black-text">A' recos</a>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-medium-and-down">
+                            <i class="material-icons black-text">menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="contact.html"><i class="material-icons black-text">contact_mail</i></a></li>
+                            <li><a href="account.html"><i class="material-icons black-text">person</i></a></li>
+                        </ul>
+                        </i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Sidenav Structure -->
+        <ul class="sidenav" id="slide-out">
+            <li><div class="user-view">
+                <div class="background">
+                <img src="header.jpg">
+            </div>
+                <a href="#user"><img class="circle" src="icon.jpeg"></a>
+                <a href="#name"><span class="black-text name">A' Recos</span></a>
+                <a href="#email"><span class="black-text email">a'recos@gmail.com</span></a>
+            </div></li>
+                <li>
+                    <a href="account.html">About User
+                    <i class="material-icons">person</i></a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact
+                    <i class="material-icons">account_circle</i></a>
+                </li>
+                <li>
+                    <a href="help.html">Help
+                    <i class="material-icons">help</i></a>
+                </li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Other</a></li>
+                <li><a href="https://www.pinterest.ph/allianata/style/">More Inspo
+                    <i class="material-icons">more</i></a></li>
+            </li>
+            </ul>
+        </ul>
+    </header>
+
+        <!-- Parallax -->
+        <div class="parallax-container">
+            <div class="parallax"><img src="lets.png"></div>
+        </div>
+            <div class="section white">
+            <div class="row container">
+                <h2 class="header brown-text">About Me</h2>
+                <p class="grey-text text-darken-3 lighten-3">Hola, everyone! I'm Alliana Arcilla from Cabuyao, Laguna a starting fashion guru. As I loved the fashion since I am a kid it is my passion to dress up in any event that I was attending. As i grow up, I am exploring my style, including on trends, seeing my idols and how our social media evolves. I want to share my 'budols' as I wanted also to share how style is enlighting our sense. It makes me happy and that is also I want to you and for those who loves fashion.</p>
+                <br>
+                    <div class="responsive-img center"><img src="hearts.png" width="450px"></div>
+                <br>
+                <h4 class="center">Hope you like my 'budols'!</h4>
+                <p class="center">For more updates, follow me on my social media accounts on home page!</p>
+            </div>
+            </div>
+            <div class="parallax-container">
+            <div class="parallax"><img src="try.png"></div>
+        </div> 
+        <br>
+        <br><br>
+        <!-- Footer -->
+        <footer class="page-footer transparent">
+            <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h2 class="black-text">A' Recos</h2>
+                <p class="black-text text-lighten-4"></p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h6 class="black-text">Social Media Links:</h6>
+                <br>
+                <u>
+                <a href="https://www.facebook.com/allianaxarcilla/"><img src="fb.png" width="30px"></a>
+                <a href="https://www.instagram.com/alliana_arcilla/"><img src="insta.png" width="40px"></a>
+                <a href="https://twitter.com/alliana_arcilla"><img src="tweet.png" width="30px"></a>
+                <a href="https://www.tiktok.com/@allianaaa"><img src="tiktok.png" width="28px"></a>
+                </u>
+            </div>
+            </div>
+            </div>
+            
+        <div class="footer-copyright">
+            <div class="container black-text">
+            © 2022 Copyright Text
+            <a class="black-text text-lighten-4 right" href="#!">Fashion</a>
+            </div>
+        </div>
+        </footer>
+    
+    
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" 
+        crossorigin="anonymous"></script>
+        
+        <!-- Compiled and minified Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <script>
+        $(document).ready(function(){
+            // Sidenav init
+                $('.sidenav').sidenav({
+            });   
+            // Parallax init
+            $('.parallax').parallax({
+            });
+        });
+        </script>
+    
+    </body>
+    </html>
